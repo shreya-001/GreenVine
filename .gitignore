@@ -1,0 +1,6 @@
+#ignore all the logs
+*.log
+/.DS_Store
+
+#Data 
+/Plant Disease
