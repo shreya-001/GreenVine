@@ -18,3 +18,5 @@ When working with deep learning alot of data is required, since the data is only
 4. 3rd step is repeated for the unhealthy images.
 
 > With the help of the above steps we were able to increase the size of the dataset.
+
+After the augmentation the distribution between healthy and unhealthy images are 49.8% and 50.2% respectively. 
