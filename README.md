@@ -20,3 +20,9 @@ When working with deep learning alot of data is required, since the data is only
 > With the help of the above steps we were able to increase the size of the dataset.
 
 After the augmentation the distribution between healthy and unhealthy images are 49.8% and 50.2% respectively. 
+
+## Image Pre-processing 
+- Before feeding the images to the model it is necessary to preprocess the images, since all the images are of different resolutions we will resize all the images to 256x256. 
+- After reshaping the images healthy and unhealthy images are concatenated into one variable. 
+- **Image Labelling** - labeled all the healthy images as zeros and unhealthy as ones
+- Did numpy flattening to get the 2D array where each row represents an image and each column represents the pixel value.
